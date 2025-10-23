@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\112\\Desktop\\Portfolio\\11-Abstract class, Polymorphism, ForEach\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A92636A7-B20F-4DE8-B03E-F76A7BDA6DD4}|11-Abstract class, Polymorphism, ForEach.csproj|c:\\users\\112\\desktop\\portfolio\\11-abstract class, polymorphism, foreach\\cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92636A7-B20F-4DE8-B03E-F76A7BDA6DD4}|11-Abstract class, Polymorphism, ForEach.csproj|solutionrelative:cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92636A7-B20F-4DE8-B03E-F76A7BDA6DD4}|11-Abstract class, Polymorphism, ForEach.csproj|c:\\users\\112\\desktop\\portfolio\\11-abstract class, polymorphism, foreach\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92636A7-B20F-4DE8-B03E-F76A7BDA6DD4}|11-Abstract class, Polymorphism, ForEach.csproj|solutionrelative:vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92636A7-B20F-4DE8-B03E-F76A7BDA6DD4}|11-Abstract class, Polymorphism, ForEach.csproj|c:\\users\\112\\desktop\\portfolio\\11-abstract class, polymorphism, foreach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92636A7-B20F-4DE8-B03E-F76A7BDA6DD4}|11-Abstract class, Polymorphism, ForEach.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92636A7-B20F-4DE8-B03E-F76A7BDA6DD4}|11-Abstract class, Polymorphism, ForEach.csproj|c:\\users\\112\\desktop\\portfolio\\11-abstract class, polymorphism, foreach\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92636A7-B20F-4DE8-B03E-F76A7BDA6DD4}|11-Abstract class, Polymorphism, ForEach.csproj|solutionrelative:motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92636A7-B20F-4DE8-B03E-F76A7BDA6DD4}|11-Abstract class, Polymorphism, ForEach.csproj|c:\\users\\112\\desktop\\portfolio\\11-abstract class, polymorphism, foreach\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92636A7-B20F-4DE8-B03E-F76A7BDA6DD4}|11-Abstract class, Polymorphism, ForEach.csproj|solutionrelative:truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Truck.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\Portfolio\\11-Abstract class, Polymorphism, ForEach\\Truck.cs",
+              "RelativeDocumentMoniker": "Truck.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\Portfolio\\11-Abstract class, Polymorphism, ForEach\\Truck.cs",
+              "RelativeToolTip": "Truck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T16:19:49.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Motorcycle.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\Portfolio\\11-Abstract class, Polymorphism, ForEach\\Motorcycle.cs",
+              "RelativeDocumentMoniker": "Motorcycle.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\Portfolio\\11-Abstract class, Polymorphism, ForEach\\Motorcycle.cs",
+              "RelativeToolTip": "Motorcycle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T16:19:32.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cars.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\Portfolio\\11-Abstract class, Polymorphism, ForEach\\Cars.cs",
+              "RelativeDocumentMoniker": "Cars.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\Portfolio\\11-Abstract class, Polymorphism, ForEach\\Cars.cs",
+              "RelativeToolTip": "Cars.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T16:19:11.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\Portfolio\\11-Abstract class, Polymorphism, ForEach\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Vehicle.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\Portfolio\\11-Abstract class, Polymorphism, ForEach\\Vehicle.cs",
+              "RelativeToolTip": "Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T16:18:49.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\Portfolio\\11-Abstract class, Polymorphism, ForEach\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\Portfolio\\11-Abstract class, Polymorphism, ForEach\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T16:18:03.81Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
