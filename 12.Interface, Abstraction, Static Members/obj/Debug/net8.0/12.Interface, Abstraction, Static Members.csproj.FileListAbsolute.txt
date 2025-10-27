@@ -1,0 +1,14 @@
+C:\Users\112\Desktop\Portfolio\12.Interface, Abstraction, Static Members\bin\Debug\net8.0\12.Interface, Abstraction, Static Members.exe
+C:\Users\112\Desktop\Portfolio\12.Interface, Abstraction, Static Members\bin\Debug\net8.0\12.Interface, Abstraction, Static Members.deps.json
+C:\Users\112\Desktop\Portfolio\12.Interface, Abstraction, Static Members\bin\Debug\net8.0\12.Interface, Abstraction, Static Members.runtimeconfig.json
+C:\Users\112\Desktop\Portfolio\12.Interface, Abstraction, Static Members\bin\Debug\net8.0\12.Interface, Abstraction, Static Members.dll
+C:\Users\112\Desktop\Portfolio\12.Interface, Abstraction, Static Members\bin\Debug\net8.0\12.Interface, Abstraction, Static Members.pdb
+C:\Users\112\Desktop\Portfolio\12.Interface, Abstraction, Static Members\obj\Debug\net8.0\12.Interface, Abstraction, Static Members.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\112\Desktop\Portfolio\12.Interface, Abstraction, Static Members\obj\Debug\net8.0\12.Interface, Abstraction, Static Members.AssemblyInfoInputs.cache
+C:\Users\112\Desktop\Portfolio\12.Interface, Abstraction, Static Members\obj\Debug\net8.0\12.Interface, Abstraction, Static Members.AssemblyInfo.cs
+C:\Users\112\Desktop\Portfolio\12.Interface, Abstraction, Static Members\obj\Debug\net8.0\12.Interface, Abstraction, Static Members.csproj.CoreCompileInputs.cache
+C:\Users\112\Desktop\Portfolio\12.Interface, Abstraction, Static Members\obj\Debug\net8.0\12.Interface, Abstraction, Static Members.dll
+C:\Users\112\Desktop\Portfolio\12.Interface, Abstraction, Static Members\obj\Debug\net8.0\refint\12.Interface, Abstraction, Static Members.dll
+C:\Users\112\Desktop\Portfolio\12.Interface, Abstraction, Static Members\obj\Debug\net8.0\12.Interface, Abstraction, Static Members.pdb
+C:\Users\112\Desktop\Portfolio\12.Interface, Abstraction, Static Members\obj\Debug\net8.0\12.Interface, Abstraction, Static Members.genruntimeconfig.cache
+C:\Users\112\Desktop\Portfolio\12.Interface, Abstraction, Static Members\obj\Debug\net8.0\ref\12.Interface, Abstraction, Static Members.dll

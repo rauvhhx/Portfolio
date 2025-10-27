@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\112\\Desktop\\Portfolio\\12.Interface, Abstraction, Static Members\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC16C4E-C94B-42CB-842B-8E11AAA40D57}|12.Interface, Abstraction, Static Members.csproj|c:\\users\\112\\desktop\\portfolio\\12.interface, abstraction, static members\\calculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC16C4E-C94B-42CB-842B-8E11AAA40D57}|12.Interface, Abstraction, Static Members.csproj|solutionrelative:calculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC16C4E-C94B-42CB-842B-8E11AAA40D57}|12.Interface, Abstraction, Static Members.csproj|c:\\users\\112\\desktop\\portfolio\\12.interface, abstraction, static members\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC16C4E-C94B-42CB-842B-8E11AAA40D57}|12.Interface, Abstraction, Static Members.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC16C4E-C94B-42CB-842B-8E11AAA40D57}|12.Interface, Abstraction, Static Members.csproj|c:\\users\\112\\desktop\\portfolio\\12.interface, abstraction, static members\\icalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBC16C4E-C94B-42CB-842B-8E11AAA40D57}|12.Interface, Abstraction, Static Members.csproj|solutionrelative:icalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICalculation.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\Portfolio\\12.Interface, Abstraction, Static Members\\ICalculation.cs",
+              "RelativeDocumentMoniker": "ICalculation.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\Portfolio\\12.Interface, Abstraction, Static Members\\ICalculation.cs",
+              "RelativeToolTip": "ICalculation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T18:57:53.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Calculation.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\Portfolio\\12.Interface, Abstraction, Static Members\\Calculation.cs",
+              "RelativeDocumentMoniker": "Calculation.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\Portfolio\\12.Interface, Abstraction, Static Members\\Calculation.cs*",
+              "RelativeToolTip": "Calculation.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T18:57:01.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\Portfolio\\12.Interface, Abstraction, Static Members\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\Portfolio\\12.Interface, Abstraction, Static Members\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T18:55:13.908Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
