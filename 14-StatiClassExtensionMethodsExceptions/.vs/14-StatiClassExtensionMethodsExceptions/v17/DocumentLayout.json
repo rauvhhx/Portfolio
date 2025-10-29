@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\14-StatiClassExtensionMethodsExceptions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57605787-42C7-4500-8396-B0921B2B34FC}|14-StatiClassExtensionMethodsExceptions.csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\14-staticlassextensionmethodsexceptions\\services\\loginsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57605787-42C7-4500-8396-B0921B2B34FC}|14-StatiClassExtensionMethodsExceptions.csproj|solutionrelative:services\\loginsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57605787-42C7-4500-8396-B0921B2B34FC}|14-StatiClassExtensionMethodsExceptions.csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\14-staticlassextensionmethodsexceptions\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57605787-42C7-4500-8396-B0921B2B34FC}|14-StatiClassExtensionMethodsExceptions.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57605787-42C7-4500-8396-B0921B2B34FC}|14-StatiClassExtensionMethodsExceptions.csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\14-staticlassextensionmethodsexceptions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57605787-42C7-4500-8396-B0921B2B34FC}|14-StatiClassExtensionMethodsExceptions.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57605787-42C7-4500-8396-B0921B2B34FC}|14-StatiClassExtensionMethodsExceptions.csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\14-staticlassextensionmethodsexceptions\\exception\\accountlockedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57605787-42C7-4500-8396-B0921B2B34FC}|14-StatiClassExtensionMethodsExceptions.csproj|solutionrelative:exception\\accountlockedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57605787-42C7-4500-8396-B0921B2B34FC}|14-StatiClassExtensionMethodsExceptions.csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\14-staticlassextensionmethodsexceptions\\exception\\incorrectpasswordexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57605787-42C7-4500-8396-B0921B2B34FC}|14-StatiClassExtensionMethodsExceptions.csproj|solutionrelative:exception\\incorrectpasswordexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57605787-42C7-4500-8396-B0921B2B34FC}|14-StatiClassExtensionMethodsExceptions.csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\14-staticlassextensionmethodsexceptions\\exception\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57605787-42C7-4500-8396-B0921B2B34FC}|14-StatiClassExtensionMethodsExceptions.csproj|solutionrelative:exception\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57605787-42C7-4500-8396-B0921B2B34FC}|14-StatiClassExtensionMethodsExceptions.csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\14-staticlassextensionmethodsexceptions\\exception\\invalidpasswordexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57605787-42C7-4500-8396-B0921B2B34FC}|14-StatiClassExtensionMethodsExceptions.csproj|solutionrelative:exception\\invalidpasswordexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57605787-42C7-4500-8396-B0921B2B34FC}|14-StatiClassExtensionMethodsExceptions.csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\14-staticlassextensionmethodsexceptions\\exception\\invalidusernameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57605787-42C7-4500-8396-B0921B2B34FC}|14-StatiClassExtensionMethodsExceptions.csproj|solutionrelative:exception\\invalidusernameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginSystem.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\14-StatiClassExtensionMethodsExceptions\\Services\\LoginSystem.cs",
+              "RelativeDocumentMoniker": "Services\\LoginSystem.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\14-StatiClassExtensionMethodsExceptions\\Services\\LoginSystem.cs",
+              "RelativeToolTip": "Services\\LoginSystem.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T15:40:29.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\14-StatiClassExtensionMethodsExceptions\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\14-StatiClassExtensionMethodsExceptions\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T15:39:32.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountLockedException.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\14-StatiClassExtensionMethodsExceptions\\Exception\\AccountLockedException.cs",
+              "RelativeDocumentMoniker": "Exception\\AccountLockedException.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\14-StatiClassExtensionMethodsExceptions\\Exception\\AccountLockedException.cs",
+              "RelativeToolTip": "Exception\\AccountLockedException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T15:37:24.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IncorrectPasswordException.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\14-StatiClassExtensionMethodsExceptions\\Exception\\IncorrectPasswordException.cs",
+              "RelativeDocumentMoniker": "Exception\\IncorrectPasswordException.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\14-StatiClassExtensionMethodsExceptions\\Exception\\IncorrectPasswordException.cs",
+              "RelativeToolTip": "Exception\\IncorrectPasswordException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T15:37:05.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\14-StatiClassExtensionMethodsExceptions\\Exception\\UserNotFoundException.cs",
+              "RelativeDocumentMoniker": "Exception\\UserNotFoundException.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\14-StatiClassExtensionMethodsExceptions\\Exception\\UserNotFoundException.cs",
+              "RelativeToolTip": "Exception\\UserNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T15:36:49.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InvalidPasswordException.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\14-StatiClassExtensionMethodsExceptions\\Exception\\InvalidPasswordException.cs",
+              "RelativeDocumentMoniker": "Exception\\InvalidPasswordException.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\14-StatiClassExtensionMethodsExceptions\\Exception\\InvalidPasswordException.cs",
+              "RelativeToolTip": "Exception\\InvalidPasswordException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T15:36:32.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\14-StatiClassExtensionMethodsExceptions\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\14-StatiClassExtensionMethodsExceptions\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAowDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T15:35:32.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InvalidUsernameException.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\14-StatiClassExtensionMethodsExceptions\\Exception\\InvalidUsernameException.cs",
+              "RelativeDocumentMoniker": "Exception\\InvalidUsernameException.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\14-StatiClassExtensionMethodsExceptions\\Exception\\InvalidUsernameException.cs",
+              "RelativeToolTip": "Exception\\InvalidUsernameException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T15:36:16.534Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
