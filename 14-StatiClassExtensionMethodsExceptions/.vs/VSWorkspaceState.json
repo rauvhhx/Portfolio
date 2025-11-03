@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Exception",
+    "\\Models",
+    "\\Services"
+  ],
+  "SelectedNode": "\\Exception\\InvalidPasswordException.cs",
+  "PreviewInSolutionExplorer": false
+}

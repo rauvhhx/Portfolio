@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("14-StatiClassExtensionMethodsExceptions")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f7dffd4f7510be666234ecff84bfabe0abfba77")]
 [assembly: System.Reflection.AssemblyProductAttribute("14-StatiClassExtensionMethodsExceptions")]

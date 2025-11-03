@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\15.Upcasting and Downcasting, Explicit and Implicit,Finalize (Destructor)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE36AC1-6352-4364-8CC3-A368F361ABA5}|15.Upcasting and Downcasting, Explicit and Implicit,Finalize (Destructor).csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\15.upcasting and downcasting, explicit and implicit,finalize (destructor)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE36AC1-6352-4364-8CC3-A368F361ABA5}|15.Upcasting and Downcasting, Explicit and Implicit,Finalize (Destructor).csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE36AC1-6352-4364-8CC3-A368F361ABA5}|15.Upcasting and Downcasting, Explicit and Implicit,Finalize (Destructor).csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\15.upcasting and downcasting, explicit and implicit,finalize (destructor)\\models\\eagle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE36AC1-6352-4364-8CC3-A368F361ABA5}|15.Upcasting and Downcasting, Explicit and Implicit,Finalize (Destructor).csproj|solutionrelative:models\\eagle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE36AC1-6352-4364-8CC3-A368F361ABA5}|15.Upcasting and Downcasting, Explicit and Implicit,Finalize (Destructor).csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\15.upcasting and downcasting, explicit and implicit,finalize (destructor)\\models\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE36AC1-6352-4364-8CC3-A368F361ABA5}|15.Upcasting and Downcasting, Explicit and Implicit,Finalize (Destructor).csproj|solutionrelative:models\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EE36AC1-6352-4364-8CC3-A368F361ABA5}|15.Upcasting and Downcasting, Explicit and Implicit,Finalize (Destructor).csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\15.upcasting and downcasting, explicit and implicit,finalize (destructor)\\models\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EE36AC1-6352-4364-8CC3-A368F361ABA5}|15.Upcasting and Downcasting, Explicit and Implicit,Finalize (Destructor).csproj|solutionrelative:models\\animals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Eagle.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\15.Upcasting and Downcasting, Explicit and Implicit,Finalize (Destructor)\\Models\\Eagle.cs",
+              "RelativeDocumentMoniker": "Models\\Eagle.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\15.Upcasting and Downcasting, Explicit and Implicit,Finalize (Destructor)\\Models\\Eagle.cs*",
+              "RelativeToolTip": "Models\\Eagle.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T16:52:45.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dog.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\15.Upcasting and Downcasting, Explicit and Implicit,Finalize (Destructor)\\Models\\Dog.cs",
+              "RelativeDocumentMoniker": "Models\\Dog.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\15.Upcasting and Downcasting, Explicit and Implicit,Finalize (Destructor)\\Models\\Dog.cs",
+              "RelativeToolTip": "Models\\Dog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T16:51:16.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Animals.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\15.Upcasting and Downcasting, Explicit and Implicit,Finalize (Destructor)\\Models\\Animals.cs",
+              "RelativeDocumentMoniker": "Models\\Animals.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\15.Upcasting and Downcasting, Explicit and Implicit,Finalize (Destructor)\\Models\\Animals.cs",
+              "RelativeToolTip": "Models\\Animals.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T16:48:43.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\15.Upcasting and Downcasting, Explicit and Implicit,Finalize (Destructor)\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\15.Upcasting and Downcasting, Explicit and Implicit,Finalize (Destructor)\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T16:47:44.004Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

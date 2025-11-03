@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "15.Upcasting and Downcasting, Explicit and Implicit,Finalize (Destructor)/1.0.0": {
+        "runtime": {
+          "15.Upcasting and Downcasting, Explicit and Implicit,Finalize (Destructor).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "15.Upcasting and Downcasting, Explicit and Implicit,Finalize (Destructor)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
