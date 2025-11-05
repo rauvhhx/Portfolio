@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2959E3C-A0A9-45EB-8FC6-FB6B326187CA}|17-DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\17-directorystreamreaderstreamwriterserializationdeserialization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2959E3C-A0A9-45EB-8FC6-FB6B326187CA}|17-DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2959E3C-A0A9-45EB-8FC6-FB6B326187CA}|17-DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\17-directorystreamreaderstreamwriterserializationdeserialization\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2959E3C-A0A9-45EB-8FC6-FB6B326187CA}|17-DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|solutionrelative:filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2959E3C-A0A9-45EB-8FC6-FB6B326187CA}|17-DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\17-directorystreamreaderstreamwriterserializationdeserialization\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2959E3C-A0A9-45EB-8FC6-FB6B326187CA}|17-DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileManager.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\FileManager.cs",
+              "RelativeDocumentMoniker": "FileManager.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\FileManager.cs*",
+              "RelativeToolTip": "FileManager.cs*",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAywHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T16:51:34.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\Student.cs",
+              "RelativeDocumentMoniker": "Student.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\Student.cs*",
+              "RelativeToolTip": "Student.cs*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T16:51:11.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T16:48:42.011Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
