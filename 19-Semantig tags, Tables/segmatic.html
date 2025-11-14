@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Səhifənin və ya bölmənin ən əsas heading səviyyəsini göstərir, Başlıq kimidə ola bilər çünki qara və qalın fondadır -->
+    <h1>Universal sayt</h1>
+    <!-- Burada table yaratmisam ve icerisinde tr,th taglarından istifadə etmişəm th cədvəlin başlıq hüceyrələrini göstərir. 
+     Ama tr isə cədvəldə bir sətir yaradır.  -->
+  <table style="width: 600px; height: 300px;" border="1">
+  
+    <tr>
+    <th>Name</th>
+    <th>Surname</th>
+    <th>Age</th>
+    </tr>
+    <tr>
+     <th>Rauf</th>
+    <th>Mammadli</th>
+    <th>21</th>
+    </tr>
+<tr>
+     <th>Farid</th>
+    <th>Hasanzada</th>
+    <th>20</th>
+    </tr>
+
+  </table>
+  <!-- Paraqraf teqidir və bir paraqraf mətni göstərmək üçün istifadə olunur. Ama biz bu teqdə aşağıda mənim kimi yazsanız belə 
+   siz ayıra yəni loru dildə sındıra bilməyəcəksiniz ayrı ayrı yazmaq yəni yeni sətirə keçirtmək üçün isə pre teqindən 
+   istifadə olunur -->
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+    Numquam voluptatem culpa vitae, nostrum accusamus temporibus
+     similique debitis! Beatae laborum ex ad assumenda, impedit dolore
+      iusto porro maiores repellendus recusandae veniam?</p>
+      <!-- Pre teqində isə isdədiyimiz yerdən kəsib yeni sətirə keçirdik -->
+    <pre>Lorem ipsum dolor sit 
+        amet consectetur adipisicing elit.
+         Eaque, 
+         obcaecati.</pre>
+    <!-- Həm semantikdir, həm də inline elementdir.Çünki <img> brauzerə və axtarış sistemlərinə bu elementin şəkil 
+     olduğunu açıq şəkildə bildirir.Yəni məzmun barədə mənalı informasiya verir → bu da semantikanın əsas meyarıdır.
+    Və biz burada linklə və yaxud lahiyənin olduğu fayla istədiyimiz şəkili atırıq və onunda adını burdakı srcnin
+    daxilinə yerləşdiririk istəsək witdh v' height ilə ona ölçülərdə verə bilərik -->
+    <img width="600px" height="400px" src="hello_world.png" alt="Nümumə şəkil">
+    <!-- <input> tagı HTML-də istifadəçidən məlumat almaq üçün istifadə olunur.
+     Bu, form elementlərinin ən əsas komponentidir.  -->
+    <input type="label"><br>
+    <!--  a teqi bizə səhifələr arası keçidi təmin edir lin vasitəsi ilə. Bu daxili və xarici keçidlər üçün istifadə olunur.-->
+    <a href=https://www.youtube.com target="_blank">Bura basın</a>
+    <!-- ordered list deməkdir, yəni nömrələnmiş (sıralı) siyahı yaratmaq üçün istifadə olunur.
+        Bu tag ilə yazdığın siyahı avtomatik olaraq:
+          1, 2, 3… kimi nömrələnir, ardıcıllıq tələb edən məlumatları göstərmək üçün istifadə olunur. Isstəsək biz bu listə ayrı 
+          sıralamaq üçün bizə typelərdə verilib onlardanda istifadə edə bilərik.Mən rum rəqəmlərindən istifadə etdim . Əgər biz sıranı başqa
+          rəqəmlə başlamasınl isstəyiriksə startwithlə veirik və tərsinı etmək istəyiriksə reversedlə həll edə bilərik . Bundan başqa bizdə 
+          unordered var yəni ordereddəki kimi sıralanmır stabil olaraq bir işarə ilə işarələnir-->  
+    <ol type="I">
+        <li>HYUNDAI</li>
+        <li>BMW</li>
+        <li>MERCEDES</li>
+        <li>KIA</li>
+        <li>MAYBACH</li>
+    </ol>
+</body>
+</html>
