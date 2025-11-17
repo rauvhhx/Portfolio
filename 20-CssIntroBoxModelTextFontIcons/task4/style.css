@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.page {
+  width: 900px;
+  margin: 40px auto;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 80px;
+}
+
+.time {
+  width: 260px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #1477ff;
+}
+
+.text-block {
+  flex: 1;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.row + .row {
+  margin-top: 60px;
+}
+
+
+.handwritten {
+  font-family: "Brush Script MT", "Lucida Handwriting", cursive;
+  font-size: 15px;
+  line-height: 1.6;
+}

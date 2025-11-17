@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px 0;
+}
+
+
+.bg-box {
+  width: 70%;
+  margin: auto;
+  height: 1200px; 
+  background: url("https://images.pexels.com/photos/1439226/pexels-photo-1439226.jpeg") no-repeat center/cover;
+  border: 1px solid #ddd;
+  position: relative;
+  background-attachment: fixed; 
+  background-size: cover;
+}
+
+
+.text-layer {
+  position: sticky; 
+  top: 0;
+  width: 100%;
+  padding: 30px;
+  color: #fffca0;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.text-layer h3 {
+  margin-bottom: 22px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.footer-logo {
+  margin-top: 60px;
+  font-size: 32px;
+  font-weight: 800;
+  color: #111;
+  letter-spacing: 2px;
+}
+
+.footer-logo span {
+  color: #ff4b91;
+  font-style: italic;
+}
