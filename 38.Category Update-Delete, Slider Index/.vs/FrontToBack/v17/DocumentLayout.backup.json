@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\112\\Desktop\\hezret\\APA102\\35-ServiceLifeTimeAppSettingProduct\\",
+  "WorkspaceRootPath": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\38.Category Update-Delete, Slider Index\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|c:\\users\\112\\desktop\\hezret\\apa102\\35-servicelifetimeappsettingproduct\\areas\\adminpanel\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|solutionrelative:areas\\adminpanel\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\38.category update-delete, slider index\\areas\\adminpanel\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|solutionrelative:areas\\adminpanel\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|c:\\users\\112\\desktop\\hezret\\apa102\\35-servicelifetimeappsettingproduct\\areas\\adminpanel\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|solutionrelative:areas\\adminpanel\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\38.category update-delete, slider index\\utilities\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|solutionrelative:utilities\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|c:\\users\\112\\desktop\\hezret\\apa102\\35-servicelifetimeappsettingproduct\\areas\\adminpanel\\views\\category\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|solutionrelative:areas\\adminpanel\\views\\category\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|c:\\users\\112\\desktop\\hezret\\apa102\\35-servicelifetimeappsettingproduct\\areas\\adminpanel\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|solutionrelative:areas\\adminpanel\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|c:\\users\\112\\desktop\\hezret\\apa102\\35-servicelifetimeappsettingproduct\\areas\\adminpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|solutionrelative:areas\\adminpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\38.category update-delete, slider index\\utilities\\enums\\filesize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2194915-6223-4900-930A-5760B8F93ECA}|FrontToBack.csproj|solutionrelative:utilities\\enums\\filesize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,66 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\112\\Desktop\\hezret\\APA102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Views\\Category\\Detail.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Category\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\112\\Desktop\\hezret\\APA102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Views\\Category\\Detail.cshtml",
-              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Category\\Detail.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-17T19:49:34.489Z",
+              "Title": "FileSize.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\38.Category Update-Delete, Slider Index\\Utilities\\Enums\\FileSize.cs",
+              "RelativeDocumentMoniker": "Utilities\\Enums\\FileSize.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\38.Category Update-Delete, Slider Index\\Utilities\\Enums\\FileSize.cs",
+              "RelativeToolTip": "Utilities\\Enums\\FileSize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T12:38:39.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\112\\Desktop\\hezret\\APA102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\Users\\112\\Desktop\\hezret\\APA102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwBkBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-17T19:28:41.061Z",
+              "Title": "FileValidator.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\38.Category Update-Delete, Slider Index\\Utilities\\Extensions\\FileValidator.cs",
+              "RelativeDocumentMoniker": "Utilities\\Extensions\\FileValidator.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\38.Category Update-Delete, Slider Index\\Utilities\\Extensions\\FileValidator.cs",
+              "RelativeToolTip": "Utilities\\Extensions\\FileValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T12:32:23.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\112\\Desktop\\hezret\\APA102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Category\\Index.cshtml",
-              "ToolTip": "C:\\Users\\112\\Desktop\\hezret\\APA102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Category\\Index.cshtml",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAwC4AAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-17T19:20:09.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\112\\Desktop\\hezret\\APA102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
-              "ToolTip": "C:\\Users\\112\\Desktop\\hezret\\APA102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
-              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADQAAABwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-17T19:19:38.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\112\\Desktop\\hezret\\APA102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\112\\Desktop\\hezret\\APA102\\35-ServiceLifeTimeAppSettingProduct\\Areas\\AdminPanel\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAAwIsAAAAJAAAAAAAAAA==",
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\38.Category Update-Delete, Slider Index\\Areas\\AdminPanel\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\38.Category Update-Delete, Slider Index\\Areas\\AdminPanel\\Controllers\\SliderController.cs*",
+              "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\SliderController.cs*",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwC0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T17:57:11.311Z",
+              "WhenOpened": "2025-12-18T11:43:21.304Z",
               "EditorCaption": ""
             }
           ]

@@ -291,3 +291,6 @@ wwwroot\assets\scss\_slider.scss
 wwwroot\assets\scss\_testimonial.scss
 wwwroot\assets\scss\_variables.scss
 wwwroot\assets\scss\_wishlist.scss
+wwwroot\assets\images\website-images\choose-a-reference-image-e1692607996568-914x1024.jpg
+wwwroot\assets\images\website-images\3783ef90-ba77-4453-a7a9-0e667a2d8934choose-a-reference-image-e1692607996568-914x1024.jpg
+wwwroot\assets\images\website-images\7a8b4a9f-ea21-4276-ab53-f0f5518966a5choose-a-reference-image-e1692607996568-914x1024.jpg
