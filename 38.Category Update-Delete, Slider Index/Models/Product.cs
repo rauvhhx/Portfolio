@@ -1,4 +1,6 @@
-﻿namespace FrontToBack.Models
+﻿using FrontToBack_.Models;
+
+namespace FrontToBack.Models
 {
     public class Product:BaseEntity
     {

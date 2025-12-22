@@ -294,3 +294,5 @@ wwwroot\assets\scss\_wishlist.scss
 wwwroot\assets\images\website-images\choose-a-reference-image-e1692607996568-914x1024.jpg
 wwwroot\assets\images\website-images\3783ef90-ba77-4453-a7a9-0e667a2d8934choose-a-reference-image-e1692607996568-914x1024.jpg
 wwwroot\assets\images\website-images\7a8b4a9f-ea21-4276-ab53-f0f5518966a5choose-a-reference-image-e1692607996568-914x1024.jpg
+wwwroot\assets\images\website-images\41059018-af73-4644-89e4-ca0e3b5a6343choose-a-reference-image-e1692607996568-914x1024.jpg
+wwwroot\assets\images\website-images\cc0cc562-b1e1-4964-b060-8a5573767cf5WIN_20221215_18_36_25_Pro (2).jpg

@@ -1,9 +1,11 @@
-﻿
-@model DetailVM;
+﻿@using Front_To_Back_.ViewModels
+@model DetailVM
 
+@* @{
+    Product product = Model.Product;
+} *@
 
-
-      <!-- Begin Main Content Area  -->
+<!-- Begin Main Content Area  -->
 <main class="main-content">
     <div class="breadcrumb-area breadcrumb-height"
          data-bg-image="~/assets/images/breadcrumb/bg/1-1-1919x388.jpg">
@@ -33,10 +35,10 @@
                                 @foreach (ProductImage proImg in Model.Product.ProductImages)
                                 {
                                     <div class="swiper-slide">
-                                        <a href="~/assets/images/website-images/@proImg.ImageUrl"
+                                        <a href="~/assets/images/website-images/@proImg.ImageURL"
                                            class="single-img gallery-popup">
                                             <img class="img-full"
-                                                 src="~/assets/images/website-images/@proImg.ImageUrl"
+                                                 src="~/assets/images/website-images/@proImg.ImageURL"
                                                  alt="Product Image" />
                                         </a>
                                     </div>
@@ -50,11 +52,10 @@
                                     {
                                         <a href="#" class="swiper-slide">
                                             <img class="img-full"
-                                                 src="~/assets/images/website-images/@image.ImageUrl"
+                                                 src="~/assets/images/website-images/@image.ImageURL"
                                                  alt="Product Thumnail" />
                                         </a>
                                     }
-                                    
                                 </div>
                                 <!-- Add Arrows -->
                                 <div class="thumbs-button-wrap d-none d-md-block">
@@ -179,12 +180,11 @@
                             </ul>
                         </div>
                         <div class="product-category">
-                            <span class="title">Category :</span>
+                            <span class="title">Categorie :</span>
                             <ul>
                                 <li>
                                     <a href="#">@Model.Product.Category.Name</a>
                                 </li>
-                                
                             </ul>
                         </div>
                         <div class="product-category product-tags">
@@ -462,12 +462,12 @@
                             {
                                 <div class="swiper-slide product-item">
                                     <div class="product-img">
-                                        <a asp-controller="shop" asp-action="detail" asp-route-id="@product.Id">
+                                        <a href="single-product-variable.html">
                                             <img class="primary-img"
-                                                 src="~/assets/images/website-images/@product.ProductImages.FirstOrDefault(pi=>pi.IsPrimary == true).ImageUrl"
+                                                 src="~/assets/images/website-images/@product.ProductImages.FirstOrDefault(pi => pi.IsPrimary == true).ImageURL"
                                                  alt="Product Images" />
                                             <img class="secondary-img"
-                                                 src="~/assets/images/website-images/@product.ProductImages.FirstOrDefault(pi => pi.IsPrimary == false).ImageUrl"
+                                                 src="~/assets/images/website-images/@product.ProductImages.FirstOrDefault(pi => pi.IsPrimary == false).ImageURL"
                                                  alt="Product Images" />
                                         </a>
                                         <div class="product-add-action">

@@ -1,4 +1,4 @@
-﻿namespace FrontToBack.Models
+﻿namespace FrontToBack_.Models
 {
     public abstract class BaseEntity
     {

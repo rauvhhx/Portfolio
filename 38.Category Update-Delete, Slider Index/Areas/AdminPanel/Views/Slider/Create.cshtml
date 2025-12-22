@@ -1,4 +1,4 @@
-﻿@model Slider
+﻿@model SliderCreateVM
 
 <div class="row">
     <div class="col-md-6 grid-margin stretch-card">
@@ -8,7 +8,7 @@
                 <form class="forms-sample" method="post" enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="Photo">Image</label>
-                        <input asp-for="Photo" class="form-control" placeholder="Image">
+                        <input asp-for="Photo" class="form-control" placeholder="Image" accept="image/*">
                         <span asp-validation-for="Photo" class="text-danger"></span>
                     </div>
                     <div class="form-group">

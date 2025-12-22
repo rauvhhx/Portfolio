@@ -1,6 +1,6 @@
 ﻿using FrontToBack.Models;
 
-namespace FrontToBack.ViewModels
+namespace Front_To_Back_.ViewModels
 {
     public class DetailVM
     {

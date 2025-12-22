@@ -1,0 +1,66 @@
+﻿@using Front_To_Back_.Areas.AdminPanel.ViewModels.Products
+@model List<GetProductVM>
+
+@{
+    int count = 0;
+}
+<div class="row">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Product Table</h4>
+                <div class="table-responsive">
+                    <a asp-action="create" class="btn btn-success">Create</a>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>
+                                    No#
+                                </th>
+                                <th>
+                                    Image
+                                </th>
+                                <th>
+                                    Name
+                                </th>
+                                <th>
+                                    Category
+                                </th>
+                                <th>
+                                    Settings
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (GetProductVM product in Model)
+                            {
+                                count++;
+                                <tr>
+                                    <td>
+                                        <p>@count</p>
+                                    </td>
+                                    <td>
+                                        <img style="width:50px; height:50px" src="~/assets/images/website-images/@product.ImageURL" />
+                                    </td>
+                                    <td>
+                                        <p>@product.Name</p>
+                                    </td>
+                                    <td>
+                                        <p>@product.CategoryName</p>
+                                    </td>
+                                    <td>
+                                    <td class="d-flex border-0">
+                                        <a asp-action="Update" asp-route-id="@product.Id" class="btn btn-warning"><i class="mdi mdi-pencil"></i></a>
+                                        <a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger"><i class="mdi mdi-delete"></i></a>
+                                        <a asp-action="Detail" asp-route-id="@product.Id" class="btn btn-primary"><i class="mdi mdi-information-outline"></i></a>
+                                    </td>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

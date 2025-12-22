@@ -1,10 +1,10 @@
 ﻿using FrontToBack.DAL;
 using FrontToBack.Models;
+using FrontToBack.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 
-namespace FrontToBack.Areas.AdminPanel.Controllers
+namespace Front_To_Back_.Areas.AdminPanel.Controllers
 {
     [Area("AdminPanel")]
     public class CategoryController : Controller
@@ -16,8 +16,11 @@ namespace FrontToBack.Areas.AdminPanel.Controllers
             _context = context;
         }
 
+
+
         public async Task<IActionResult> Index()
         {
+
             List<Category> categories = await _context.Categories
                 .Include(c => c.Products)
                 .Where(c => c.IsDeleted == false)
@@ -33,85 +36,78 @@ namespace FrontToBack.Areas.AdminPanel.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Category category)
         {
-            if (category == null) return BadRequest();
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+            //home //home 
 
-            if (!ModelState.IsValid) return View(category);
+            bool existCategory = await _context.Categories.AnyAsync(c => c.Name.Trim() == category.Name.Trim());
 
-            bool isExist = await _context.Categories
-                .AnyAsync(c => c.Name.Trim().ToLower() == category.Name.Trim().ToLower());
 
-            if (isExist)
+            if (existCategory)
             {
                 ModelState.AddModelError("Name", "Category already exists!");
-                return View(category);
+                return View();
             }
 
-            await _context.Categories.AddAsync(category);
+            await _context.AddAsync(category);
             await _context.SaveChangesAsync();
 
+            //return View("Index");
             return RedirectToAction(nameof(Index));
         }
 
-        [HttpGet]
         public async Task<IActionResult> Update(int? id)
         {
-            if (id == null || id < 1) return BadRequest();
+            if (id is null || id < 1) return BadRequest();
 
             Category category = await _context.Categories.FirstOrDefaultAsync(c => c.Id == id);
 
-            if (category == null) return NotFound();
+            if (category is null) return NotFound();
 
             return View(category);
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Update(int? id, Category category)
         {
-            if (id == null || id < 1) return BadRequest();
-            if (category == null) return BadRequest();
+            if (id is null || id < 1) return BadRequest();
 
             Category existedCategory = await _context.Categories.FirstOrDefaultAsync(c => c.Id == id);
 
-            if (existedCategory == null) return NotFound();
+            if (category is null) return NotFound();
 
-            if (!ModelState.IsValid) return View(category);
+            if (!ModelState.IsValid) return View();
 
-            
-            if (string.IsNullOrWhiteSpace(category.Name))
+            bool result = await _context.Categories.AnyAsync(c => c.Name.Trim() == category.Name.Trim() && c.Id != id);
+
+            if (result)
             {
-                ModelState.AddModelError("Name", "Name cannot be empty!");
-                return View(category);
-            }
-
-            bool isDuplicate = await _context.Categories
-                .AnyAsync(c => c.Name.Trim().ToLower() == category.Name.Trim().ToLower() && c.Id != id);
-
-            if (isDuplicate)
-            {
-                ModelState.AddModelError("Name", "Category already exists!");
-                return View(category);
+                ModelState.AddModelError(nameof(Category.Name), "Category already exists!");
+                return View();
             }
 
             existedCategory.Name = category.Name;
 
+            //await _context.Categories.Update();
             await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));
+
         }
 
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || id < 1) return BadRequest();
+            if (id is null || id < 1) return BadRequest();
 
             Category existCategory = await _context.Categories.FirstOrDefaultAsync(c => c.Id == id);
 
-            if (existCategory == null) return NotFound();
+            if (existCategory is null) return NotFound();
 
-            if (existCategory.IsDeleted = false)
+            if (existCategory.IsDeleted == false)
             {
                 existCategory.IsDeleted = true;
             }
@@ -120,23 +116,14 @@ namespace FrontToBack.Areas.AdminPanel.Controllers
                 existCategory.IsDeleted = false;
             }
 
-            existCategory.IsDeleted = true;
 
-            // _context.Categories.Remove(existCategory);
+
+            //_context.Categories.Remove(existCategory);
 
             await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));
         }
-        public async Task<IActionResult> Detail(int? id)
-        {
-            if (id is null || id < 1) return BadRequest();
 
-            Category category = _context.Categories.Include(c => c.Products).FirstOrDefault(c => c.Id == id);
-
-            if (category is null) return NotFound();
-
-            return View(category);
-        }
     }
 }

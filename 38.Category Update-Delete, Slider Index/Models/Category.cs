@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Serialization;
+﻿using FrontToBack_.Models;
+using Newtonsoft.Json.Serialization;
 using System.ComponentModel.DataAnnotations;
 
 namespace FrontToBack.Models
