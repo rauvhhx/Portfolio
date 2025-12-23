@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Muq5vNEa1eg=",
+  "dgSpecHash": "Tl4dtjGt7ac=",
   "success": true,
-  "projectFilePath": "C:\\Users\\112\\Desktop\\Detail-Uni-task\\FrontToBack.csproj",
+  "projectFilePath": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\40.ViewModels, Slider Update, Product Index\\FrontToBack.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\112\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\112\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

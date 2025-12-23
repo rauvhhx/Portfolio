@@ -133,13 +133,14 @@
                                         <div class="product-img">
                                             <a asp-controller="shop" asp-action="detail" asp-route-id="@product.Id">
                                                 <img class="primary-img"
-                                                     src="~/assets/images/website-images/@product.ProductImages.FirstOrDefault(pi=>pi.IsPrimary==true).ImageURL"
+                                                     src="~/assets/images/website-images/@(product.ProductImages?.FirstOrDefault(pi => pi.IsPrimary == true)?.ImageURL ?? "default.jpg")"
                                                      alt="Product Images" />
+
                                                 <img class="secondary-img"
-                                                     src="~/assets/images/website-images//@product.ProductImages.FirstOrDefault(pi => pi.IsPrimary == false).ImageURL"
+                                                     src="~/assets/images/website-images/@(product.ProductImages?.FirstOrDefault(pi => pi.IsPrimary == false)?.ImageURL ?? "default.jpg")"
                                                      alt="Product Images" />
                                             </a>
-                                            <div class="product-add-action">
+                                        </div>
                                                 <ul>
                                                     <li>
                                                         <a href="wishlist.html"
@@ -194,8 +195,6 @@
                                                 </ul>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
                             }
                         </div>
                     </div>
