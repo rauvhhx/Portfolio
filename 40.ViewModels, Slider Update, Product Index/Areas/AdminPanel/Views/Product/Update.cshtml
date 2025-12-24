@@ -33,6 +33,18 @@
                     </div>
 
                     <div class="form-group">
+                        <label for="TagIds">Tag</label>
+                        <select asp-for="TagIds" class="form-control" asp-items="new SelectList(Model.Tags, nameof(Tag.Id), nameof(Tag.Name))">
+                        </select>
+                        <span asp-validation-for="TagIds" class="text-danger"></span>
+                    </div>
+
+
+
+
+
+
+                    <div class="form-group">
                         <label for="SKU">SKU</label>
                         <input asp-for="SKU" class="form-control" placeholder="SKU">
                         <span asp-validation-for="SKU" class="text-danger"></span>

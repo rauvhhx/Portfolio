@@ -25,14 +25,21 @@
                     </div>
                     <div class="form-group">
                         <label for="CategoryId">Category</label>
-                        <select class="form-control">
+                        <select asp-for="CategoryId" class="form-control">
                                 <option selected disabled >Select Category</option>
                             @foreach(Category category in Model.Categories)
                             {
                                 <option value=@category.Id>@category.Name</option>
                             }
-                        </select
+                        </select>
                         <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="TagIds">Tag</label>
+                        <select asp-for="TagIds" class="form-control" asp-items="@new SelectList(Model.Tags,nameof(Tag.Id),nameof(Tag.Name))">
+                            @* <option selected disabled>Choose Tag</option> *@
+                        </select>
+                        <span asp-validation-for="TagIds" class="text-danger"></span>
                     </div>
 
                     <div class="form-group">

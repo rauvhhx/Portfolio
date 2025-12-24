@@ -35,6 +35,7 @@ public class ProductController : Controller
     {
         CreateProductVM createProductVM = new CreateProductVM()
         {
+            Tags =  await _context.Tags.ToListAsync(),
             Categories = await _context.Categories.ToListAsync(),
         };
         return View(createProductVM);
@@ -44,6 +45,7 @@ public class ProductController : Controller
     public async Task<IActionResult> Create(CreateProductVM createProductVM)
     {
         createProductVM.Categories = await _context.Categories.ToListAsync();
+        createProductVM.Tags = await _context.Tags.ToListAsync();
 
         if (!ModelState.IsValid)
         {
@@ -57,6 +59,26 @@ public class ProductController : Controller
             return View(createProductVM);
         }
 
+        //foreach(var tagId in createProductVM.Tags)
+        //{
+        //    bool existTag = createProductVM.Tags.Any(t => t.Id == tagId);
+        //    if (!existCategory)
+        //    {
+        //        ModelState.AddModelError(nameof(CreateProductVM.TagIds), "Tags does not exist!");
+        //        return View(createProductVM);
+        //    }
+
+        //}
+        if (createProductVM.TagIds is not null)
+        {
+            bool existTag = createProductVM.TagIds.Any(tagId => !createProductVM.Tags.Exists(t => t.Id == tagId));
+            if (!existCategory)
+            {
+                ModelState.AddModelError(nameof(CreateProductVM.TagIds), "Tags does not exist!");
+                return View(createProductVM);
+            }
+        }
+
         Product product = new()
         {
             Name = createProductVM.Name,
@@ -65,6 +87,11 @@ public class ProductController : Controller
             SKU = createProductVM.SKU,
             CategoryId = createProductVM.CategoryId,
         };
+
+        if(createProductVM.TagIds is not null)
+        {
+            product.ProductTags = createProductVM.TagIds.Select(tId=> new ProductTag { TagId=tId }).ToList();
+        }
 
         await _context.Products.AddAsync(product);
         await _context.SaveChangesAsync();
@@ -82,7 +109,7 @@ public class ProductController : Controller
             return View();
         }
 
-        Product existedProduct = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
+        Product existedProduct = await _context.Products.Include(p=>p.ProductTags).FirstOrDefaultAsync(p => p.Id == id);
 
         if (existedProduct == null) return NotFound();
 
@@ -93,12 +120,14 @@ public class ProductController : Controller
             Description = existedProduct.Description,
             SKU = existedProduct.SKU,
             CategoryId = existedProduct.CategoryId,
-            Categories = await _context.Categories.ToListAsync()
+            TagIds = existedProduct.ProductTags.Select(p=>p.TagId).ToList(),
+            Categories = await _context.Categories.ToListAsync(),
+            Tags = await _context.Tags.ToListAsync()
         };
 
         return View(updateProductVM);
     }
-    [HttpPost]
+
     [HttpPost]
     public async Task<IActionResult> Update(int? id, UpdateProductVM updateProductVM)
     {

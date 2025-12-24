@@ -15,8 +15,12 @@
       "RelativeMoniker": "D:0:0:{C82CD19C-423D-4F59-B813-6EB244C6B476}|FrontToBack.csproj|solutionrelative:areas\\adminpanel\\viewmodels\\products\\updateproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C82CD19C-423D-4F59-B813-6EB244C6B476}|FrontToBack.csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\40.viewmodels, slider update, product index\\areas\\adminpanel\\viewmodels\\products\\createproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C82CD19C-423D-4F59-B813-6EB244C6B476}|FrontToBack.csproj|solutionrelative:areas\\adminpanel\\viewmodels\\products\\createproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C82CD19C-423D-4F59-B813-6EB244C6B476}|FrontToBack.csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\40.viewmodels, slider update, product index\\areas\\adminpanel\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C82CD19C-423D-4F59-B813-6EB244C6B476}|FrontToBack.csproj|solutionrelative:areas\\adminpanel\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C82CD19C-423D-4F59-B813-6EB244C6B476}|FrontToBack.csproj|c:\\users\\112\\desktop\\apa-102\\portfolio\\40.viewmodels, slider update, product index\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C82CD19C-423D-4F59-B813-6EB244C6B476}|FrontToBack.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\40.ViewModels, Slider Update, Product Index\\Areas\\AdminPanel\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\40.ViewModels, Slider Update, Product Index\\Areas\\AdminPanel\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAADwv4UAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T18:15:57.649Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -53,9 +44,22 @@
               "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Product\\Update.cshtml",
               "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\40.ViewModels, Slider Update, Product Index\\Areas\\AdminPanel\\Views\\Product\\Update.cshtml",
               "RelativeToolTip": "Areas\\AdminPanel\\Views\\Product\\Update.cshtml",
-              "ViewState": "AgIAABYAAAAAAAAAAADwvyMAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvyYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-23T17:56:33.037Z",
+              "WhenOpened": "2025-12-24T12:53:26.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\40.ViewModels, Slider Update, Product Index\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\40.ViewModels, Slider Update, Product Index\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T11:32:12.424Z",
               "EditorCaption": ""
             },
             {
@@ -66,22 +70,35 @@
               "RelativeDocumentMoniker": "Areas\\AdminPanel\\ViewModels\\Products\\UpdateProductVM.cs",
               "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\40.ViewModels, Slider Update, Product Index\\Areas\\AdminPanel\\ViewModels\\Products\\UpdateProductVM.cs",
               "RelativeToolTip": "Areas\\AdminPanel\\ViewModels\\Products\\UpdateProductVM.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA8AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-23T17:48:34.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateProductVM.cs",
-              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\40.ViewModels, Slider Update, Product Index\\Areas\\AdminPanel\\ViewModels\\Products\\CreateProductVM.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\ViewModels\\Products\\CreateProductVM.cs",
-              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\40.ViewModels, Slider Update, Product Index\\Areas\\AdminPanel\\ViewModels\\Products\\CreateProductVM.cs",
-              "RelativeToolTip": "Areas\\AdminPanel\\ViewModels\\Products\\CreateProductVM.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\40.ViewModels, Slider Update, Product Index\\Areas\\AdminPanel\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\40.ViewModels, Slider Update, Product Index\\Areas\\AdminPanel\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAqwHYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T17:08:38.149Z",
+              "WhenOpened": "2025-12-23T18:15:57.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\40.ViewModels, Slider Update, Product Index\\Areas\\AdminPanel\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\112\\Desktop\\APA-102\\Portfolio\\40.ViewModels, Slider Update, Product Index\\Areas\\AdminPanel\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvycAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-24T11:13:20.118Z",
               "EditorCaption": ""
             }
           ]

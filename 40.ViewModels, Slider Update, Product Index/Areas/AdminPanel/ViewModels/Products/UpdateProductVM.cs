@@ -16,6 +16,9 @@ namespace Front_To_Back_.Areas.AdminPanel.ViewModels.Products
         [Required]
 
         public int CategoryId { get; set; }
+        public List<int> TagIds { get; set; }
         public List<Category> Categories { get; set; }
+
+        public List<Tag> Tags { get; set; }
     }
 }

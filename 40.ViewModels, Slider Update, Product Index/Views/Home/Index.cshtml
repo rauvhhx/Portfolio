@@ -133,11 +133,11 @@
                                         <div class="product-img">
                                             <a asp-controller="shop" asp-action="detail" asp-route-id="@product.Id">
                                                 <img class="primary-img"
-                                                     src="~/assets/images/website-images/@(product.ProductImages?.FirstOrDefault(pi => pi.IsPrimary == true)?.ImageURL ?? "default.jpg")"
+                                                     src="~/assets/images/website-images/@(product.ProductImages.FirstOrDefault(pi => pi.IsPrimary == true))?.ImageURL"
                                                      alt="Product Images" />
 
                                                 <img class="secondary-img"
-                                                     src="~/assets/images/website-images/@(product.ProductImages?.FirstOrDefault(pi => pi.IsPrimary == false)?.ImageURL ?? "default.jpg")"
+                                                     src="~/assets/images/website-images//@(product.ProductImages?.FirstOrDefault(pi => pi.IsPrimary == false))?.ImageURL"
                                                      alt="Product Images" />
                                             </a>
                                         </div>
